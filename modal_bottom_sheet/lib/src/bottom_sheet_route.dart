@@ -160,6 +160,7 @@ class ModalSheetRoute<T> extends PageRoute<T> {
     Duration? duration,
     this.scrollPhysics,
     this.scrollPhysicsBuilder,
+    super.fullscreenDialog,
     super.settings,
   }) : duration = duration ?? _bottomSheetDuration;
 
